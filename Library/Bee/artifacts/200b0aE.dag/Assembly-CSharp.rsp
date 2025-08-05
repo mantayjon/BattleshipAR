@@ -352,6 +352,9 @@
 "Assets/ProceduralUIImage/Scripts/Modifiers/UniformModifier.cs"
 "Assets/ProceduralUIImage/Scripts/ProceduralImage.cs"
 "Assets/ProceduralUIImage/Scripts/ProceduralImageModifier.cs"
+"Assets/Scripts/GameManager.cs"
+"Assets/Scripts/Ship.cs"
+"Assets/Scripts/Tile.cs"
 -langversion:9.0
 /deterministic
 /optimize+
