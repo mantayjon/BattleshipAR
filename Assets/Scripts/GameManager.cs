@@ -22,6 +22,10 @@ public class GameManager : MonoBehaviour
     public int[] shipSizes = { 5, 3, 2, 2 }; // 1x 5, 1x 3, 2x 2
     private List<Ship> placedShips = new List<Ship>();
 
+    [Header("Game ")]
+    public int maxAttempts = 20;
+    private int currentAttempts = 0;
+
     void Start()
     {
         grid = new int[gridWidth, gridHeight];
@@ -33,9 +37,49 @@ public class GameManager : MonoBehaviour
     }
 
     void Update()
+{
+    if (Input.GetMouseButtonDown(0) && currentAttempts < maxAttempts)
     {
-       
+        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        if (Physics.Raycast(ray, out RaycastHit hit))
+        {
+            Tile tile = hit.collider.GetComponent<Tile>();
+            if (tile != null && !tile.isHit)
+            {
+                tile.Hit(); // Color the tile and mark as hit
+                currentAttempts++;
+
+                // Check if a ship is on that tile
+                foreach (Ship ship in placedShips)
+                {
+                    if (ship.RegisterHit(tile.coordinates))
+                    {
+                        Debug.Log("Hit!");
+                        if (ship.IsSunk())
+                        {
+                            Debug.Log($"Ship of size {ship.size} is sunk!");
+                        }
+                        return; // No need to check other ships
+                    }
+                }
+
+                Debug.Log("Miss!");
+            }
+
+            Debug.Log($"Attempts left: {maxAttempts - currentAttempts}");
+
+            if (placedShips.TrueForAll(s => s.IsSunk()))
+            {
+                Debug.Log("You win!");
+            }
+            else if (currentAttempts >= maxAttempts)
+            {
+                Debug.Log("Game Over. You lost.");
+            }
+        }
     }
+}
+
 
     private void PlaceShips()
     {

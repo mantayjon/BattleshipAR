@@ -5,8 +5,10 @@ using UnityEngine;
 public class Ship
 {
     public int size;
-    public Vector2Int position;   
+    public Vector2Int position;
     public bool isHorizontal;
+
+    private HashSet<Vector2Int> hits = new HashSet<Vector2Int>();
 
     public Ship(int size, Vector2Int position, bool isHorizontal)
     {
@@ -25,6 +27,21 @@ public class Ship
             coordinats.Add(new Vector2Int(x, y));
         }
         return coordinats;
+    }
+    
+    public bool RegisterHit(Vector2Int hitPosition)
+    {
+        if (GetOccupiedCoordinates().Contains(hitPosition))
+        {
+            hits.Add(hitPosition);
+            return true; // it was a hit
+        }
+        return false; // miss
+    }
+
+    public bool IsSunk()
+    {
+        return hits.Count >= size;
     }
 }
 

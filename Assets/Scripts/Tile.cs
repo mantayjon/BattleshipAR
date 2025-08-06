@@ -15,15 +15,14 @@ public class Tile : MonoBehaviour
         rend = GetComponent<Renderer>();
     }
 
-    public void SetOccupied(bool occupied)
+    public void SetOccupied(bool occupied) 
     {
         isOccupied = occupied;
         
-        if (occupied)
-            rend.material.color = Color.black;
+        //if (occupied) rend.material.color = Color.black;
     }
 
-    public void OnHit()
+    public void Hit()
     {
         isHit = true;
         rend.material.color = isOccupied ? Color.green : Color.red; // green = hit, red = miss
