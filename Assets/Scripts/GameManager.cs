@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class GameManager : MonoBehaviour
 {
     
     private int[,] grid;
+    public TextMeshProUGUI attemptsText; 
 
     [Header("Grid Settings")]
     public int gridWidth = 10;
@@ -29,6 +31,7 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         grid = new int[gridWidth, gridHeight];
+        attemptsText.text = $"Attempts Left: {maxAttempts - currentAttempts}";
 
         PlaceShips();
         CreateGridVisual();
@@ -55,6 +58,8 @@ public class GameManager : MonoBehaviour
                     if (ship.RegisterHit(tile.coordinates))
                     {
                         Debug.Log("Hit!");
+                        attemptsText.text = $"Attempts Left: {maxAttempts - currentAttempts}";
+
                         if (ship.IsSunk())
                         {
                             Debug.Log($"Ship of size {ship.size} is sunk!");
@@ -66,15 +71,17 @@ public class GameManager : MonoBehaviour
                 Debug.Log("Miss!");
             }
 
-            Debug.Log($"Attempts left: {maxAttempts - currentAttempts}");
+            attemptsText.text = $"Attempts Left: {maxAttempts - currentAttempts}";
 
             if (placedShips.TrueForAll(s => s.IsSunk()))
             {
-                Debug.Log("You win!");
+                attemptsText.text = "You win!";
+                //Debug.Log("You win!");
             }
             else if (currentAttempts >= maxAttempts)
             {
-                Debug.Log("Game Over. You lost.");
+                attemptsText.text = "Game Over. You lost.";
+                //Debug.Log("Game Over. You lost.");
             }
         }
     }

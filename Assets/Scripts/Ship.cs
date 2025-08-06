@@ -34,9 +34,9 @@ public class Ship
         if (GetOccupiedCoordinates().Contains(hitPosition))
         {
             hits.Add(hitPosition);
-            return true; // it was a hit
+            return true; 
         }
-        return false; // miss
+        return false; 
     }
 
     public bool IsSunk()
