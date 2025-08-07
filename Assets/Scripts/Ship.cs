@@ -7,7 +7,7 @@ public class Ship
     public int size;
     public Vector2Int position;
     public bool isHorizontal;
-
+    private List<Vector2Int> occupiedCoords;
     private HashSet<Vector2Int> hits = new HashSet<Vector2Int>();
 
     public Ship(int size, Vector2Int position, bool isHorizontal)
@@ -15,6 +15,7 @@ public class Ship
         this.size = size;
         this.position = position;
         this.isHorizontal = isHorizontal;
+         this.occupiedCoords = GetOccupiedCoordinates();
     }
 
     public List<Vector2Int> GetOccupiedCoordinates()
@@ -31,7 +32,7 @@ public class Ship
     
     public bool RegisterHit(Vector2Int hitPosition)
     {
-        if (GetOccupiedCoordinates().Contains(hitPosition))
+        if (occupiedCoords.Contains(hitPosition))
         {
             hits.Add(hitPosition);
             return true; 

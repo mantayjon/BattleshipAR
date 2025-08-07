@@ -8,21 +8,24 @@ public class GameManager : MonoBehaviour
     
     private int[,] grid;
     public TextMeshProUGUI attemptsText; 
+    public CameraControls cameraControls;
+
 
     [Header("Grid Settings")]
     public int gridWidth = 10;
     public int gridHeight = 10;
 
+
     [Header("Tile Info")]
-
-    public GameObject tilePrefab; // Assign in Inspector
+    public GameObject tilePrefab; 
     public Transform gridParent;  
+    private Tile[,] tileObjects; 
 
-   private Tile[,] tileObjects; // To reference them later (for updates)
 
     [Header("Ship Info")]
-    public int[] shipSizes = { 5, 3, 2, 2 }; // 1x 5, 1x 3, 2x 2
+    public int[] shipSizes = { 5, 3, 2, 2 }; 
     private List<Ship> placedShips = new List<Ship>();
+
 
     [Header("Game ")]
     public int maxAttempts = 20;
@@ -31,61 +34,61 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         grid = new int[gridWidth, gridHeight];
+        cameraControls.initialFocusPoint = new Vector3(gridWidth / 2f, 0f, gridHeight / 2f);
         attemptsText.text = $"Attempts Left: {maxAttempts - currentAttempts}";
 
         PlaceShips();
         CreateGridVisual();
         HighlightShips();
-
     }
 
     void Update()
-{
-    if (Input.GetMouseButtonDown(0) && currentAttempts < maxAttempts)
     {
-        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-        if (Physics.Raycast(ray, out RaycastHit hit))
+        if (Input.GetMouseButtonDown(0) && currentAttempts < maxAttempts)
         {
-            Tile tile = hit.collider.GetComponent<Tile>();
-            if (tile != null && !tile.isHit)
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            if (Physics.Raycast(ray, out RaycastHit hit))
             {
-                tile.Hit(); // Color the tile and mark as hit
-                currentAttempts++;
-
-                // Check if a ship is on that tile
-                foreach (Ship ship in placedShips)
+                Tile tile = hit.collider.GetComponent<Tile>();
+                if (tile != null && !tile.isHit)
                 {
-                    if (ship.RegisterHit(tile.coordinates))
-                    {
-                        Debug.Log("Hit!");
-                        attemptsText.text = $"Attempts Left: {maxAttempts - currentAttempts}";
+                    tile.Hit(); // Color the tile and mark as hit
+                    currentAttempts++;
 
-                        if (ship.IsSunk())
+                    // Check if a ship is on that tile
+                    foreach (Ship ship in placedShips)
+                    {
+                        if (ship.RegisterHit(tile.coordinates))
                         {
-                            Debug.Log($"Ship of size {ship.size} is sunk!");
+                            Debug.Log("Hit!");
+                            attemptsText.text = $"Attempts Left: {maxAttempts - currentAttempts}";
+
+                            if (ship.IsSunk())
+                            {
+                                Debug.Log($"Ship of size {ship.size} is sunk!");
+                            }
+                            return; 
                         }
-                        return; // No need to check other ships
                     }
+
+                    Debug.Log("Miss!");
                 }
 
-                Debug.Log("Miss!");
-            }
+                attemptsText.text = $"Attempts Left: {maxAttempts - currentAttempts}";
 
-            attemptsText.text = $"Attempts Left: {maxAttempts - currentAttempts}";
-
-            if (placedShips.TrueForAll(s => s.IsSunk()))
-            {
-                attemptsText.text = "You win!";
-                //Debug.Log("You win!");
-            }
-            else if (currentAttempts >= maxAttempts)
-            {
-                attemptsText.text = "Game Over. You lost.";
-                //Debug.Log("Game Over. You lost.");
+                if (placedShips.TrueForAll(s => s.IsSunk()))
+                {
+                    attemptsText.text = "You win!";
+                    
+                }
+                else if (currentAttempts >= maxAttempts)
+                {
+                    attemptsText.text = "Game Over. You lost.";
+                    
+                }
             }
         }
     }
-}
 
 
     private void PlaceShips()

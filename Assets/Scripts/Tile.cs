@@ -18,14 +18,12 @@ public class Tile : MonoBehaviour
     public void SetOccupied(bool occupied) 
     {
         isOccupied = occupied;
-        
-        //if (occupied) rend.material.color = Color.black;
     }
 
     public void Hit()
     {
         isHit = true;
-        rend.material.color = isOccupied ? Color.green : Color.red; // green = hit, red = miss
+        rend.material.color = isOccupied ? Color.green : Color.red; 
     }
 }
 
