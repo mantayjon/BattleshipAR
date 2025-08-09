@@ -14,7 +14,7 @@ public class CameraControls : MonoBehaviour
     [Header("Focus")]
     private Vector3 focusPoint;
     private float yaw;
-    private float pitch = 90f;
+    private float pitch;
     private bool freeModeEnabled = false;
 
    void Start()

@@ -356,6 +356,7 @@
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/InfoPanel.cs"
 "Assets/Scripts/InfoPanelControler.cs"
+"Assets/Scripts/SceneLoader.cs"
 "Assets/Scripts/Ship.cs"
 "Assets/Scripts/ShipButton.cs"
 "Assets/Scripts/ShipData.cs"
