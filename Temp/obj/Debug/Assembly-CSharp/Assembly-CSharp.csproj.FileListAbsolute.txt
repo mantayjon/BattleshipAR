@@ -1,8 +1,0 @@
-/Users/jonasmantay/Documents/Coding/Battleship AR/Battleship AR/Temp/bin/Debug/Assembly-CSharp.deps.json
-/Users/jonasmantay/Documents/Coding/Battleship AR/Battleship AR/Temp/bin/Debug/Assembly-CSharp.dll
-/Users/jonasmantay/Documents/Coding/Battleship AR/Battleship AR/Temp/bin/Debug/Assembly-CSharp.pdb
-/Users/jonasmantay/Documents/Coding/Battleship AR/Battleship AR/Temp/obj/Debug/Assembly-CSharp/Assembly-CSharp.csproj.AssemblyReference.cache
-/Users/jonasmantay/Documents/Coding/Battleship AR/Battleship AR/Temp/obj/Debug/Assembly-CSharp/Assembly-CSharp.GeneratedMSBuildEditorConfig.editorconfig
-/Users/jonasmantay/Documents/Coding/Battleship AR/Battleship AR/Temp/obj/Debug/Assembly-CSharp/Assembly-CSharp.csproj.CoreCompileInputs.cache
-/Users/jonasmantay/Documents/Coding/Battleship AR/Battleship AR/Temp/obj/Debug/Assembly-CSharp/Assembly-CSharp.dll
-/Users/jonasmantay/Documents/Coding/Battleship AR/Battleship AR/Temp/obj/Debug/Assembly-CSharp/Assembly-CSharp.pdb
