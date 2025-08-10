@@ -28,7 +28,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp/bin/Debug/</OutputPath>
-    <DefineConstants>UNITY_2021_3_45;UNITY_2021_3;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_STANDALONE;TEXTCORE_1_0_OR_NEWER;PLATFORM_STANDALONE_OSX;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_SPATIALTRACKING;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>UNITY_2021_3_45;UNITY_2021_3;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_IOS;TEXTCORE_1_0_OR_NEWER;ENABLE_RUNTIME_GI;ENABLE_GAMECENTER;ENABLE_NETWORK;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_IOS_ON_DEMAND_RESOURCES;ENABLE_IOS_APP_SLICING;PLAYERCONNECTION_LISTENS_FIXED_PORT;DEBUGGER_LISTENS_FIXED_PORT;PLATFORM_SUPPORTS_ADS_ID;SUPPORT_ENVIRONMENT_VARIABLES;PLATFORM_SUPPORTS_PROFILER;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_ETC_COMPRESSION;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;UNITY_IOS;PLATFORM_IPHONE;UNITY_IPHONE;UNITY_IPHONE_API;UNITY_HAS_GOOGLEVR;ENABLE_SPATIALTRACKING;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169;USG0001</NoWarn>
@@ -55,50 +55,132 @@
     <UnityProjectGeneratorVersion>2.0.22</UnityProjectGeneratorVersion>
     <UnityProjectGeneratorStyle>SDK</UnityProjectGeneratorStyle>
     <UnityProjectType>Game:1</UnityProjectType>
-    <UnityBuildTarget>StandaloneOSX:2</UnityBuildTarget>
+    <UnityBuildTarget>iOS:9</UnityBuildTarget>
     <UnityVersion>2021.3.45f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
     <Analyzer Include="/Users/jonasmantay/.vscode/extensions/visualstudiotoolsforunity.vstuc-1.1.2/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/MaxstARSamples/Scripts/ObjectTrackerSample.cs" />
     <Compile Include="Assets/Scripts/Tile.cs" />
+    <Compile Include="Assets/MaxstAR/Script/Wrapper/Map3D.cs" />
+    <Compile Include="Assets/MaxstARSamples/Scripts/ObjectFusionTrackerSample.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/SkewTextExample.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/SimpleScript.cs" />
+    <Compile Include="Assets/MaxstAR/Script/Wrapper/JsonHelper.cs" />
+    <Compile Include="Assets/MaxstAR/Script/Wrapper/SensorDevice.cs" />
+    <Compile Include="Assets/MaxstAR/Script/Wrapper/Trackable.cs" />
+    <Compile Include="Assets/MaxstAR/Script/CameraBackgroundBehaviour.cs" />
+    <Compile Include="Assets/MaxstAR/Script/AndroidEngine.cs" />
+    <Compile Include="Assets/MaxstARSamples/Scripts/HomeSceneManager.cs" />
     <Compile Include="Assets/Scripts/ShipButton.cs" />
+    <Compile Include="Assets/MaxstAR/Script/MarkerTrackerBehaviour.cs" />
+    <Compile Include="Assets/MaxstAR/Script/Wrapper/AbstractARManager.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01_UGUI.cs" />
+    <Compile Include="Assets/MaxstAR/Script/Wrapper/WearableCalibration.cs" />
+    <Compile Include="Assets/MaxstAR/Script/Wrapper/CloudRecognizerCache.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_A.cs" />
+    <Compile Include="Assets/MaxstAR/Script/Wrapper/AbstractImageTrackableBehaviour.cs" />
+    <Compile Include="Assets/MaxstARSamples/Scripts/ImageFusionTrackerSample.cs" />
+    <Compile Include="Assets/MaxstARSamples/Scripts/ImageTrackerSample.cs" />
+    <Compile Include="Assets/MaxstARSamples/Scripts/AdaptingEventSystemDragThreshold.cs" />
+    <Compile Include="Assets/MaxstAR/Script/Wrapper/AbstractMarkerTrackableBehaviour.cs" />
+    <Compile Include="Assets/MaxstAR/Script/Wrapper/Dimensions.cs" />
+    <Compile Include="Assets/MaxstAR/Script/WearableManager.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeA.cs" />
+    <Compile Include="Assets/MaxstAR/Script/Wrapper/ColorFormat.cs" />
+    <Compile Include="Assets/MaxstARSamples/Scripts/InstantTrackerSample.cs" />
+    <Compile Include="Assets/MaxstAR/Script/Wrapper/AbstractFeaturePointBehaviour.cs" />
+    <Compile Include="Assets/MaxstAR/Script/ARManager.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark04.cs" />
+    <Compile Include="Assets/MaxstAR/Script/Billboard.cs" />
     <Compile Include="Assets/ProceduralUIImage/Scripts/Modifiers/RoundModifier.cs" />
+    <Compile Include="Assets/MaxstAR/Script/Wrapper/AbstractObjectTrackableBehaviour.cs" />
+    <Compile Include="Assets/MaxstARSamples/Scripts/SceneStackManager.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ChatController.cs" />
     <Compile Include="Assets/ProceduralUIImage/Scripts/ProceduralImageModifier.cs" />
+    <Compile Include="Assets/MaxstAR/Script/Wrapper/TrackingState.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshProFloatingText.cs" />
+    <Compile Include="Assets/MaxstARSamples/Scripts/InstantFusionTrackerSample.cs" />
+    <Compile Include="Assets/MaxstAR/Script/Wrapper/MaxstSingleton.cs" />
+    <Compile Include="Assets/MaxstAR/Script/Wrapper/AbstractMapViewerBehaviour.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeB.cs" />
+    <Compile Include="Assets/MaxstAR/Script/Wrapper/MapRendererBehaviour.cs" />
+    <Compile Include="Assets/MaxstAR/Script/Wrapper/CloudRecognitionController.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/EnvMapAnimator.cs" />
     <Compile Include="Assets/Scripts/InfoPanelControler.cs" />
+    <Compile Include="Assets/MaxstARSamples/Scripts/PlateMove.cs" />
+    <Compile Include="Assets/MaxstAR/Script/Wrapper/TrackingResult.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_UiFrameRateCounter.cs" />
+    <Compile Include="Assets/MaxstARSamples/Scripts/SingleTon.cs" />
+    <Compile Include="Assets/MaxstAR/Script/Wrapper/MapViewer.cs" />
+    <Compile Include="Assets/MaxstAR/Script/WearableDeviceController.cs" />
+    <Compile Include="Assets/MaxstAR/Script/ImageTrackableBehaviour.cs" />
+    <Compile Include="Assets/MaxstARSamples/Scripts/ARBehaviour.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/CameraController.cs" />
+    <Compile Include="Assets/MaxstARSamples/Scripts/CodeScanSample.cs" />
+    <Compile Include="Assets/MaxstAR/Script/FeaturePointBehaviour.cs" />
+    <Compile Include="Assets/MaxstAR/Script/Wrapper/AbstractSpaceTrackableBehaviour.cs" />
     <Compile Include="Assets/ProceduralUIImage/Scripts/Modifiers/UniformModifier.cs" />
     <Compile Include="Assets/ProceduralUIImage/Scripts/ProceduralImage.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMPro_InstructionOverlay.cs" />
+    <Compile Include="Assets/MaxstAR/Script/PinchZoom.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_ExampleScript_01.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextConsoleSimulator.cs" />
+    <Compile Include="Assets/MaxstARSamples/Scripts/SpaceTrackerSample.cs" />
+    <Compile Include="Assets/MaxstARSamples/Scripts/QrCodeTrackerSample.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ObjectSpin.cs" />
+    <Compile Include="Assets/MaxstAR/Script/Wrapper/CloudRecognitionData.cs" />
+    <Compile Include="Assets/Scripts/SceneLoader.cs" />
+    <Compile Include="Assets/MaxstAR/Script/Wrapper/MaxstAR.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextInfoDebugTool.cs" />
+    <Compile Include="Assets/MaxstAR/Script/Wrapper/MaxstARUtil.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventCheck.cs" />
+    <Compile Include="Assets/MaxstARSamples/Scripts/MarkerFusionTrackerSample.cs" />
+    <Compile Include="Assets/MaxstARSamples/Scripts/VideoTrackerSample.cs" />
+    <Compile Include="Assets/MaxstARSamples/Scripts/QrCodeFusionTrackerSample.cs" />
+    <Compile Include="Assets/MaxstAR/Script/Wrapper/TagAnchors.cs" />
     <Compile Include="Assets/ProceduralUIImage/Scripts/EmptySprite.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ShaderPropAnimator.cs" />
+    <Compile Include="Assets/MaxstARSamples/Scripts/MarkerTrackerSample.cs" />
+    <Compile Include="Assets/MaxstAR/Script/Wrapper/AbstractQrCodeTrackableBehaviour.cs" />
+    <Compile Include="Assets/MaxstAR/Script/Wrapper/TrackedImage.cs" />
+    <Compile Include="Assets/MaxstAR/Script/Wrapper/CameraDevice.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/WarpTextExample.cs" />
+    <Compile Include="Assets/MaxstAR/Script/Wrapper/AbstractCameraBackgroundBehaviour.cs" />
+    <Compile Include="Assets/MaxstAR/Script/Wrapper/AbstractCloudTrackableBehaviour.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_DigitValidator.cs" />
+    <Compile Include="Assets/MaxstARSamples/Scripts/CloudTrackerSample.cs" />
+    <Compile Include="Assets/MaxstARSamples/Scripts/BackKeyHandler.cs" />
+    <Compile Include="Assets/MaxstAR/Script/Wrapper/NativeAPI.cs" />
+    <Compile Include="Assets/MaxstAR/Script/Wrapper/AbstractInstantTrackableBehaviour.cs" />
+    <Compile Include="Assets/MaxstAR/Script/Wrapper/TagAnchor.cs" />
+    <Compile Include="Assets/MaxstAR/Script/SpaceTrackableBehaviour.cs" />
+    <Compile Include="Assets/MaxstAR/Script/Wrapper/CloudRecognitionAPIController.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark02.cs" />
+    <Compile Include="Assets/MaxstAR/Script/ObjectTrackableBehaviour.cs" />
     <Compile Include="Assets/Scripts/InfoPanel.cs" />
+    <Compile Include="Assets/MaxstAR/Script/Wrapper/ResultCode.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshSpawner.cs" />
+    <Compile Include="Assets/MaxstAR/Script/Wrapper/TrackerManager.cs" />
+    <Compile Include="Assets/MaxstAR/Script/MarkerGroupBehaviour.cs" />
+    <Compile Include="Assets/MaxstAR/Script/Wrapper/CloudReocgnitionLocalData.cs" />
+    <Compile Include="Assets/MaxstAR/Script/Wrapper/SurfaceThumbnail.cs" />
+    <Compile Include="Assets/MaxstAR/OBJLoader/FileReader.cs" />
+    <Compile Include="Assets/MaxstAR/Script/Wrapper/Point3Df.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark03.cs" />
     <Compile Include="Assets/ProceduralUIImage/Scripts/Attributes/ModifierID.cs" />
+    <Compile Include="Assets/MaxstARSamples/Scripts/CameraConfigurationSample.cs" />
+    <Compile Include="Assets/MaxstAR/Script/Wrapper/GuideInfo.cs" />
+    <Compile Include="Assets/MaxstAR/Script/Wrapper/AbstractTrackableBehaviour.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_FrameRateCounter.cs" />
+    <Compile Include="Assets/MaxstAR/Script/ConfigurationScriptableObject.cs" />
+    <Compile Include="Assets/MaxstAR/Script/Wrapper/JpegUtils.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexJitter.cs" />
+    <Compile Include="Assets/MaxstAR/Script/Wrapper/MatrixUtils.cs" />
     <Compile Include="Assets/ProceduralUIImage/Scripts/Modifiers/OnlyOneEdgeModifier.cs" />
+    <Compile Include="Assets/MaxstAR/Script/MapViewerBehaviour.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventHandler.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_B.cs" />
     <Compile Include="Assets/Scripts/GameManager.cs" />
@@ -108,22 +190,30 @@
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/DropdownSample.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_PhoneNumberValidator.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexColorCycler.cs" />
+    <Compile Include="Assets/MaxstAR/Script/CloudTrackableBehaviour.cs" />
+    <Compile Include="Assets/MaxstAR/Script/Wrapper/AbstractConfigurationScriptableObject.cs" />
+    <Compile Include="Assets/MaxstAR/Script/InstantTrackableBehaviour.cs" />
     <Compile Include="Assets/Scripts/ShipData.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TeleType.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexZoom.cs" />
     <Compile Include="Assets/ProceduralUIImage/Scripts/Modifiers/FreeModifier.cs" />
+    <Compile Include="Assets/MaxstAR/Script/Wrapper/APIController.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01.cs" />
-    <Compile Include="Assets/Scripts/SceneLoader.cs" />
+    <Compile Include="Assets/MaxstAR/Script/QrCodeTrackableBehaviour.cs" />
+    <Compile Include="Assets/MaxstAR/OBJLoader/ObjectLoader.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets/Resources/MaxstAR/Shader/Yuv420Background.shader" />
+    <None Include="Assets/Resources/MaxstAR/Shader/CullingOffUnlitShader.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" />
     <None Include="Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Oswald-Bold - OFL.txt" />
     <None Include="Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Anton OFL.txt" />
     <None Include="Assets/Grid/GridShaderUNLIT.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader" />
+    <None Include="Assets/Resources/MaxstAR/Shader/RGBBackground.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets/ProceduralUIImage/Resources/Shaders/ProceduralImageRuntime.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" />
@@ -133,15 +223,21 @@
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader" />
     <None Include="Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt" />
     <None Include="Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc" />
+    <None Include="Assets/Resources/MaxstAR/Shader/Yuv420NonRG16Background.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc" />
+    <None Include="Assets/Resources/MaxstAR/Shader/Yuv420_888Background.shader" />
+    <None Include="Assets/Resources/MaxstAR/Shader/RGBABackground.shader" />
+    <None Include="Assets/Resources/MaxstAR/Shader/AndroidYuv420Background.shader" />
     <None Include="Assets/Grid/GridShaderUNLIT_v2.shader" />
     <None Include="Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt" />
+    <None Include="Assets/StreamingAssets/arsdk_version.txt" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader" />
     <None Include="Assets/Grid/GridShader.shader" />
     <None Include="Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader" />
+    <None Include="Assets/Resources/MaxstAR/Shader/Occlusion.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_Sprite.shader" />
     <None Include="Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Bangers - OFL.txt" />
   </ItemGroup>
@@ -180,14 +276,6 @@
     </Reference>
     <Reference Include="UnityEngine.ClothModule">
       <HintPath>/Applications/Unity/Hub/Editor/2021.3.45f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="UnityEngine.ClusterInputModule">
-      <HintPath>/Applications/Unity/Hub/Editor/2021.3.45f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="UnityEngine.ClusterRendererModule">
-      <HintPath>/Applications/Unity/Hub/Editor/2021.3.45f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
@@ -402,10 +490,6 @@
       <HintPath>/Applications/Unity/Hub/Editor/2021.3.45f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="UnityEngine.VirtualTexturingModule">
-      <HintPath>/Applications/Unity/Hub/Editor/2021.3.45f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VirtualTexturingModule.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="UnityEngine.WindModule">
       <HintPath>/Applications/Unity/Hub/Editor/2021.3.45f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
       <Private>False</Private>
@@ -480,6 +564,18 @@
     </Reference>
     <Reference Include="ReportGeneratorMerged">
       <HintPath>Library/PackageCache/com.unity.testtools.codecoverage@1.2.6/lib/ReportGenerator/ReportGeneratorMerged.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="JsonFx.Json">
+      <HintPath>Assets/Plugins/JsonFx.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>/Applications/Unity/Hub/Editor/2021.3.45f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>/Applications/Unity/Hub/Editor/2021.3.45f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
@@ -1068,6 +1164,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj" />
   </ItemGroup>
   <Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />
   <ItemGroup>

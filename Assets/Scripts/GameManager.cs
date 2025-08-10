@@ -34,9 +34,14 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         grid = new int[gridWidth, gridHeight];
-        cameraControls.initialFocusPoint = new Vector3(gridWidth / 2f, 0f, gridHeight / 2f);
-        attemptsText.text = $"Attempts Left: {maxAttempts - currentAttempts}";
-
+        if (cameraControls != null)
+        {
+            cameraControls.initialFocusPoint = new Vector3(0f, 0f, 0f);
+        }
+         if (attemptsText != null)
+        {
+            attemptsText.text = $"Attempts Left: {maxAttempts - currentAttempts}";
+        }
         PlaceShips();
         CreateGridVisual();
         HighlightShips();
@@ -154,7 +159,7 @@ public class GameManager : MonoBehaviour
 
     }
 
-    private void CreateGridVisual()
+    /*private void CreateGridVisual()
     {
         tileObjects = new Tile[gridWidth, gridHeight];
 
@@ -171,7 +176,54 @@ public class GameManager : MonoBehaviour
                 tileObjects[x, y] = tile;
             }
         }
+    }*/
+    
+    private Vector2 GetTileWorldSize()
+{
+    // Use Renderer bounds (works even if prefab is scaled)
+    var rend = tilePrefab.GetComponentInChildren<Renderer>();
+    if (rend != null)
+    {
+        Vector3 size = rend.bounds.size;
+        return new Vector2(size.x, size.z);
     }
+
+    // Fallback: assume 1x1 if no renderer
+    return Vector2.one;
+}
+
+private void CreateGridVisual()
+{
+    tileObjects = new Tile[gridWidth, gridHeight];
+
+    // Measure actual tile size in world units
+    Vector2 tileSize = GetTileWorldSize();
+    float stepX = tileSize.x+(1f-tileSize.x);
+    float stepZ = tileSize.y+(1f-tileSize.y);
+
+    // Center the grid so scaling the parent doesn’t push it away
+    Vector3 origin = new Vector3(
+        -((gridWidth - 1) * stepX) * 0.5f,
+        0f,
+        -((gridHeight - 1) * stepZ) * 0.5f
+    );
+
+    for (int x = 0; x < gridWidth; x++)
+    {
+        for (int y = 0; y < gridHeight; y++)
+        {
+            GameObject tileGO = Instantiate(tilePrefab, gridParent);
+            tileGO.name = $"Tile_{x}_{y}";
+            tileGO.transform.localPosition = origin + new Vector3(x * stepX, 0f, y * stepZ);
+            tileGO.transform.localRotation = Quaternion.identity;
+
+            Tile tile = tileGO.GetComponent<Tile>();
+            tile.coordinates = new Vector2Int(x, y);
+            tileObjects[x, y] = tile;
+        }
+    }
+}
+
         
     private void HighlightShips()
     {
@@ -182,6 +234,6 @@ public class GameManager : MonoBehaviour
                 tileObjects[pos.x, pos.y].SetOccupied(true);
             }
         }
-}
+    }
 
 }

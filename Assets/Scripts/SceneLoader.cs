@@ -7,7 +7,7 @@ public class SceneLoader : MonoBehaviour
 {
     public void LoadMainScene()
     {
-        SceneManager.LoadScene("new mainScene");
+        SceneManager.LoadScene("mainScene");
     }
 
     public void LoadARScene()

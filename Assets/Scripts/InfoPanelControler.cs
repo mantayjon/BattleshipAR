@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class InfoPanelControler : MonoBehaviour
 {
-    [SerializeField] ShipButton[] shipButtons; // 4 buttons
-    [SerializeField] ShipData[] shipData;      // 4 ScriptableObjects
+    [SerializeField] ShipButton[] shipButtons; 
+    [SerializeField] ShipData[] shipData;    
     [SerializeField] InfoPanel infoPanel;
 
     void Start()

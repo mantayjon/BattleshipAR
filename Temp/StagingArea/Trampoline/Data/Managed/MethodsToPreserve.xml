@@ -1,0 +1,22 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="CameraControls">
+			<method name="SetCameraView"/>
+			<method name="SetCameraView"/>
+			<method name="SetCameraView"/>
+		</type>
+		<type fullname="InfoPanel">
+			<method name="Hide"/>
+		</type>
+		<type fullname="SceneLoader">
+			<method name="LoadARScene"/>
+			<method name="LoadMainScene"/>
+		</type>
+		<type fullname="ShipButton">
+			<method name="OnClick"/>
+			<method name="OnClick"/>
+			<method name="OnClick"/>
+			<method name="OnClick"/>
+		</type>
+	</assembly>
+</linker>
