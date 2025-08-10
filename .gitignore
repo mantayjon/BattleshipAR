@@ -1,3 +1,21 @@
- Build/
+# Unity cache/build folders
+Library/
+Temp/
+Obj/
+Logs/
+MemoryCaptures/
+
+# Build output
+Build/
+Builds/
+
+# User-specific
+UserSettings/
+
+# OS junk
+.DS_Store
+
+
+
 Assets/Plugins/iOS/libMaxstAR.a
 Assets/Plugins/x86_64/opencv_world341.dll
