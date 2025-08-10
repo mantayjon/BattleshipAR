@@ -1142,3 +1142,26 @@ PYRAMID : 2.730249
 PROCESSING : 1.308081
 FINALIZING : 0.014100
 Exit Tracking thread
+onSurfaceChanged
+onSurfaceChanged
+SDK Version : 6.2.1
+Invalid License
+Enter Tracking thread
+#########################################
+TOTAL : 2.135407
+PYRAMID : 1.389405
+PROCESSING : 0.718952
+FINALIZING : 0.008081
+It's OK!!
+#########################################
+TOTAL : 1.652275
+PYRAMID : 1.216447
+PROCESSING : 0.416488
+FINALIZING : 0.007975
+TRACKING_TOTAL : 0.744605
+#########################################
+TOTAL : 1.274206
+PYRAMID : 1.093833
+PROCESSING : 0.163735
+FINALIZING : 0.006759
+Exit Tracking thread
