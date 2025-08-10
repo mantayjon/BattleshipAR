@@ -104,6 +104,21 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: CameraControls
     methodName: SetCameraView
+  - assembly: Assembly-CSharp
+    fullTypeName: InfoPanel
+    methodName: Hide
+  - assembly: Assembly-CSharp
+    fullTypeName: ShipButton
+    methodName: OnClick
+  - assembly: Assembly-CSharp
+    fullTypeName: ShipButton
+    methodName: OnClick
+  - assembly: Assembly-CSharp
+    fullTypeName: ShipButton
+    methodName: OnClick
+  - assembly: Assembly-CSharp
+    fullTypeName: ShipButton
+    methodName: OnClick
   sceneClasses:
     Assets/Scenes/ARScene.unity:
     - Class: 1
@@ -145,6 +160,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2140}
     - Class: 114
+      Script: {instanceID: 2410}
+    - Class: 114
       Script: {instanceID: 2666}
     - Class: 114
       Script: {instanceID: 2880}
@@ -155,13 +172,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3186}
     - Class: 114
+      Script: {instanceID: 3944}
+    - Class: 114
       Script: {instanceID: 4378}
     - Class: 114
       Script: {instanceID: 4484}
     - Class: 114
+      Script: {instanceID: 5154}
+    - Class: 114
       Script: {instanceID: 5222}
     - Class: 114
       Script: {instanceID: 5476}
+    - Class: 114
+      Script: {instanceID: 5730}
     - Class: 114
       Script: {instanceID: 5948}
     - Class: 114
@@ -170,9 +193,96 @@ ScriptsOnlyBuild:
       Script: {instanceID: 7228}
     - Class: 114
       Script: {instanceID: 7732}
+    - Class: 114
+      Script: {instanceID: 7744}
+    - Class: 114
+      Script: {instanceID: 7942}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/mainScene.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1586}
+    - Class: 114
+      Script: {instanceID: 1636}
+    - Class: 114
+      Script: {instanceID: 2410}
+    - Class: 114
+      Script: {instanceID: 2666}
+    - Class: 114
+      Script: {instanceID: 2880}
+    - Class: 114
+      Script: {instanceID: 3182}
+    - Class: 114
+      Script: {instanceID: 3944}
+    - Class: 114
+      Script: {instanceID: 4378}
+    - Class: 114
+      Script: {instanceID: 4484}
+    - Class: 114
+      Script: {instanceID: 5154}
+    - Class: 114
+      Script: {instanceID: 5222}
+    - Class: 114
+      Script: {instanceID: 5730}
+    - Class: 114
+      Script: {instanceID: 5948}
+    - Class: 114
+      Script: {instanceID: 6274}
+    - Class: 114
+      Script: {instanceID: 7228}
+    - Class: 114
+      Script: {instanceID: 7470}
+    - Class: 114
+      Script: {instanceID: 7744}
+    - Class: 114
+      Script: {instanceID: 7942}
+    - Class: 115
       Script: {instanceID: 0}
     - Class: 128
       Script: {instanceID: 0}
@@ -247,89 +357,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 6274}
     - Class: 114
       Script: {instanceID: 6742}
-    - Class: 115
-      Script: {instanceID: 0}
-    - Class: 128
-      Script: {instanceID: 0}
-    - Class: 157
-      Script: {instanceID: 0}
-    - Class: 196
-      Script: {instanceID: 0}
-    - Class: 213
-      Script: {instanceID: 0}
-    - Class: 222
-      Script: {instanceID: 0}
-    - Class: 223
-      Script: {instanceID: 0}
-    - Class: 224
-      Script: {instanceID: 0}
-    Assets/Scenes/new mainScene.unity:
-    - Class: 1
-      Script: {instanceID: 0}
-    - Class: 4
-      Script: {instanceID: 0}
-    - Class: 20
-      Script: {instanceID: 0}
-    - Class: 21
-      Script: {instanceID: 0}
-    - Class: 23
-      Script: {instanceID: 0}
-    - Class: 28
-      Script: {instanceID: 0}
-    - Class: 33
-      Script: {instanceID: 0}
-    - Class: 43
-      Script: {instanceID: 0}
-    - Class: 48
-      Script: {instanceID: 0}
-    - Class: 64
-      Script: {instanceID: 0}
-    - Class: 65
-      Script: {instanceID: 0}
-    - Class: 81
-      Script: {instanceID: 0}
-    - Class: 89
-      Script: {instanceID: 0}
-    - Class: 104
-      Script: {instanceID: 0}
-    - Class: 108
-      Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 1586}
-    - Class: 114
-      Script: {instanceID: 1636}
-    - Class: 114
-      Script: {instanceID: 2410}
-    - Class: 114
-      Script: {instanceID: 2666}
-    - Class: 114
-      Script: {instanceID: 2880}
-    - Class: 114
-      Script: {instanceID: 3182}
-    - Class: 114
-      Script: {instanceID: 3944}
-    - Class: 114
-      Script: {instanceID: 4378}
-    - Class: 114
-      Script: {instanceID: 4484}
-    - Class: 114
-      Script: {instanceID: 5154}
-    - Class: 114
-      Script: {instanceID: 5222}
-    - Class: 114
-      Script: {instanceID: 5730}
-    - Class: 114
-      Script: {instanceID: 5948}
-    - Class: 114
-      Script: {instanceID: 6274}
-    - Class: 114
-      Script: {instanceID: 7228}
-    - Class: 114
-      Script: {instanceID: 7470}
-    - Class: 114
-      Script: {instanceID: 7744}
-    - Class: 114
-      Script: {instanceID: 7942}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1183,12 +1210,6 @@ ScriptsOnlyBuild:
     className: AbstractCloudTrackableBehaviour
   - hash:
       serializedVersion: 2
-      Hash: 55205e73d21cc8dbc4e75bc8df63859a
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CameraPermissionOnce
-  - hash:
-      serializedVersion: 2
       Hash: 685e8bcc6b4768341fff042ebe61cdb0
     assemblyName: Assembly-CSharp.dll
     namespaceName: TMPro
@@ -1669,12 +1690,6 @@ ScriptsOnlyBuild:
     className: QrCodeTrackableBehaviour
   - hash:
       serializedVersion: 2
-      Hash: 974193b0574ac30ac55840443cc461b8
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ARPlacementControl
-  - hash:
-      serializedVersion: 2
       Hash: c5495cef5472c394a7d823d1315ba01d
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
@@ -1688,6 +1703,6 @@ ScriptsOnlyBuild:
   platform: 9
   scenePathNames:
   - Assets/Scenes/menuScene.unity
-  - Assets/Scenes/new mainScene.unity
+  - Assets/Scenes/mainScene.unity
   - Assets/Scenes/ARScene.unity
   playerPath: /Users/jonasmantay/Documents/Coding/Battleship AR/Battleship AR/Build

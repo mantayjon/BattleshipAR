@@ -54,8 +54,6 @@ struct VirtualFuncInvoker0
 	}
 };
 
-// System.Action`1<UnityEngine.AsyncOperation>
-struct Action_1_tE8693FF0E67CDBA52BAFB211BFF1844D076ABAFB;
 // System.Action`1<System.Int32>
 struct Action_1_tD69A6DC9FBE94131E52F5A73B2A9D4AB51EEC404;
 // System.Action`1<System.Object>
@@ -328,8 +326,6 @@ struct Int32U5BU2CU5D_t46F2694E7DAD7B2B05C940EC5B9DE04E40D0516F;
 struct TileU5BU2CU5D_tE157540D68C23C8C6BFC6BB1A63BE27D9247FBAF;
 // ARBehaviour
 struct ARBehaviour_t2F27048E2E763C5ADEABA96FDB84EE3B9A64F3AF;
-// ARPlacementControl
-struct ARPlacementControl_t0E732DD673D16C359A89511375A889E6D78F96C4;
 // maxstAR.AbstractCameraBackgroundBehaviour
 struct AbstractCameraBackgroundBehaviour_tE5DC0DC291CE71DE1D236646BDF72CDDC10BD2DC;
 // maxstAR.AbstractConfigurationScriptableObject
@@ -342,8 +338,6 @@ struct AbstractTrackableBehaviour_t6C92208AEBCBD828CBE7AF7428419855CC093E8C;
 struct AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0;
 // UnityEngine.UI.AnimationTriggers
 struct AnimationTriggers_tA0DC06F89C5280C6DD972F6F4C8A56D7F4F79074;
-// UnityEngine.AsyncOperation
-struct AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C;
 // BackKeyHandler
 struct BackKeyHandler_t442B8D09006FADF9E8EA50B516FB176AF2530E6A;
 // UnityEngine.EventSystems.BaseRaycaster
@@ -364,8 +358,6 @@ struct CameraConfigurationSample_t8456A1258A59F0F62B3B8F8F834AB820176C0C51;
 struct CameraControls_t4E0C79C384104D6CA47CD15D210F737C96117FFD;
 // maxstAR.CameraDevice
 struct CameraDevice_tD5F9E6DCEBB54F12B1FD7CDCACEDB1505D0854EE;
-// CameraPermissionOnce
-struct CameraPermissionOnce_t7E075BA0C790DEA62AFC68A4743F4DC5F88C0228;
 // UnityEngine.Canvas
 struct Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26;
 // UnityEngine.CanvasRenderer
@@ -652,8 +644,6 @@ struct WearableManager_t72BC76FBE1A9197D14D7B7EF88419ADE67692B7D;
 struct CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD;
 // CameraConfigurationSample/<AddTrackerData>d__4
 struct U3CAddTrackerDataU3Ed__4_t094119F717FD7808152DFE07724FFAC47E599533;
-// CameraPermissionOnce/<Start>d__0
-struct U3CStartU3Ed__0_tE9DE796FD5EAE20055A21794F910C873C2604E71;
 // UnityEngine.Canvas/WillRenderCanvases
 struct WillRenderCanvases_tA4A6E66DBA797DCB45B995DBA449A9D1D80D0FBC;
 // CodeScanSample/<AutoFocusCoroutine>d__11
@@ -723,7 +713,6 @@ struct U3CAddTrackerDataU3Ed__6_tD4C30B6096CDB08EE86F192A878345CB9D3F56B3;
 
 IL2CPP_EXTERN_C RuntimeClass* Action_1_t0299B00ED11B97F7F1D3D27D38604DDBEB593E6F_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* CharacterSelectionEvent_t5D7AF67F47A37175CF8615AD66DEC4A0AA021392_il2cpp_TypeInfo_var;
@@ -790,7 +779,6 @@ IL2CPP_EXTERN_C RuntimeClass* U3CAddTrackerDataU3Ed__5_t3EF3E08BFCCA889479AC322C
 IL2CPP_EXTERN_C RuntimeClass* U3CAddTrackerDataU3Ed__6_tD4C30B6096CDB08EE86F192A878345CB9D3F56B3_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CAutoFocusCoroutineU3Ed__11_t792275DC914B61DD7E452A8E9AE30E14D5C2B24E_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CConstructModelU3Ed__4_t1D04EA589FC3D669A7283C9028B129441648F6CA_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* U3CStartU3Ed__0_tE9DE796FD5EAE20055A21794F910C873C2604E71_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CStartU3Ed__4_t7AF0F1ABA8D3AE9575A02603D2DC2137FA816557_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec_t2CA81D7F91B664050C7CC676B0D96E7183DF8A09_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec_t934A682FC7A2310EB64DF8FB184FC75102272AA5_il2cpp_TypeInfo_var;
@@ -825,12 +813,10 @@ IL2CPP_EXTERN_C String_t* _stringLiteral19EFD1F52E2FFC058B46C9150DAC2F372D6B7BA1
 IL2CPP_EXTERN_C String_t* _stringLiteral1CF245FE057C8CA7B9268166EE0A1B4D1CACD31C;
 IL2CPP_EXTERN_C String_t* _stringLiteral2386E77CF610F786B06A91AF2C1B3FD2282D2745;
 IL2CPP_EXTERN_C String_t* _stringLiteral2620038B8A71EF21A205CC921576171A3CA9B0F4;
-IL2CPP_EXTERN_C String_t* _stringLiteral28CFBEDF2F408160100D6C6B70EE3A60C8690EF1;
 IL2CPP_EXTERN_C String_t* _stringLiteral2C945D246C2B7897F000E1C591A686EB9EF010F0;
 IL2CPP_EXTERN_C String_t* _stringLiteral2E10FBCA2407E2EBF3ED0E550065F7734E890BF2;
 IL2CPP_EXTERN_C String_t* _stringLiteral2EAEFE2366CFF09DC153570874F3D7A309FA79BD;
 IL2CPP_EXTERN_C String_t* _stringLiteral301F8A23D68282AE74078F52341129DE8A4C502C;
-IL2CPP_EXTERN_C String_t* _stringLiteral313EEDE6A23AFEAF38AC5068176739DA5FDB8A5A;
 IL2CPP_EXTERN_C String_t* _stringLiteral3402514A6504EAC3116A2358CD364CE6A2409455;
 IL2CPP_EXTERN_C String_t* _stringLiteral3783D62DA544C4A10F6775DC60E5A763AA9BED1B;
 IL2CPP_EXTERN_C String_t* _stringLiteral37B07F5EDF87ACC1F2BD4653FA600C1D9B73139B;
@@ -847,8 +833,8 @@ IL2CPP_EXTERN_C String_t* _stringLiteral4B8146FB95E4F51B29DA41EB5F6D60F8FD0ECF21
 IL2CPP_EXTERN_C String_t* _stringLiteral4C008CC029A0B30E44EF0A37EBCC06B8CADF3DE4;
 IL2CPP_EXTERN_C String_t* _stringLiteral4D8D9C94AC5DA5FCED2EC8A64E10E714A2515C30;
 IL2CPP_EXTERN_C String_t* _stringLiteral4E30ED154523BA8E2D0497E07F1E092C4541F347;
-IL2CPP_EXTERN_C String_t* _stringLiteral4F71098B89BE6B0818C24572DD6A76ED8A52F2D4;
 IL2CPP_EXTERN_C String_t* _stringLiteral51CBDF1AF6B79F813F7DD92FE05A6534E5F9A75F;
+IL2CPP_EXTERN_C String_t* _stringLiteral53D4F91E72AB45C3FC5626BE74C2A4E077287BD0;
 IL2CPP_EXTERN_C String_t* _stringLiteral5B09A3155B704EBCE65B8B183D618764CAFBE3B0;
 IL2CPP_EXTERN_C String_t* _stringLiteral5D6AD102DFCC0063CCB6D762AF19A3F47358B436;
 IL2CPP_EXTERN_C String_t* _stringLiteral631C3C0BD4DE12BED2F471327242D96DDC1253F2;
@@ -892,7 +878,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteralB1E200BADBFDD778CB26A03277577E48EF3924C7
 IL2CPP_EXTERN_C String_t* _stringLiteralB33222D389D1E863524C895FC40FC418658BE6BB;
 IL2CPP_EXTERN_C String_t* _stringLiteralBB5041F0E911839BCE7ADCA3ECD4CE97B811ACDF;
 IL2CPP_EXTERN_C String_t* _stringLiteralBC24F623D079B469EA5B421097E68D4A0977340C;
-IL2CPP_EXTERN_C String_t* _stringLiteralBC4361839AD70046F1C4B75B0BABC42BA17FC78C;
 IL2CPP_EXTERN_C String_t* _stringLiteralBC911E7BE20A09AFB3EF2D6E2A10B8BFA5F32112;
 IL2CPP_EXTERN_C String_t* _stringLiteralC087E631060AB76B7C814C0E1B92D5C7C4C4B924;
 IL2CPP_EXTERN_C String_t* _stringLiteralC300A6FB6A5CC88875477EF317CC901BF51D88D5;
@@ -1076,7 +1061,6 @@ IL2CPP_EXTERN_C const RuntimeMethod* U3CAddTrackerDataU3Ed__5_System_Collections
 IL2CPP_EXTERN_C const RuntimeMethod* U3CAddTrackerDataU3Ed__6_System_Collections_IEnumerator_Reset_m1EB0C9D98C5C3460F495E5256A4799398D52C2E3_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CAutoFocusCoroutineU3Ed__11_System_Collections_IEnumerator_Reset_m4E91A2C1841CD8F308BF4F2ECD1B3096A503C428_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CConstructModelU3Ed__4_System_Collections_IEnumerator_Reset_m2617C008A91498E0E16AB2E4024898ABC5DDEA5E_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3CStartU3Ed__0_System_Collections_IEnumerator_Reset_m50B884658847233AA056EFD5AAA661252A9FCB68_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CStartU3Ed__4_System_Collections_IEnumerator_Reset_m3EF23BF40634D4262D8A2AE3DB14140FEFB4BF52_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CReadObjectFileU3Eb__2_0_m6831ABFD97EE5B28423AC91CD427265225DA0725_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CUpdateU3Eb__13_0_mDC9351E2CEA1AD946051FD1090F4552E4C10445E_RuntimeMethod_var;
@@ -1919,15 +1903,6 @@ struct YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_pinv
 // Native definition for COM marshalling of UnityEngine.YieldInstruction
 struct YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_com
 {
-};
-
-// CameraPermissionOnce/<Start>d__0
-struct U3CStartU3Ed__0_tE9DE796FD5EAE20055A21794F910C873C2604E71  : public RuntimeObject
-{
-	// System.Int32 CameraPermissionOnce/<Start>d__0::<>1__state
-	int32_t ___U3CU3E1__state_0;
-	// System.Object CameraPermissionOnce/<Start>d__0::<>2__current
-	RuntimeObject* ___U3CU3E2__current_1;
 };
 
 // CodeScanSample/<AutoFocusCoroutine>d__11
@@ -2972,27 +2947,6 @@ struct TMP_TextProcessingStack_1_tB03E08F69415B281A5A81138F09E49EE58402DF9
 	int32_t ___m_Count_5;
 };
 
-// UnityEngine.AsyncOperation
-struct AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C  : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D
-{
-	// System.IntPtr UnityEngine.AsyncOperation::m_Ptr
-	intptr_t ___m_Ptr_0;
-	// System.Action`1<UnityEngine.AsyncOperation> UnityEngine.AsyncOperation::m_completeCallback
-	Action_1_tE8693FF0E67CDBA52BAFB211BFF1844D076ABAFB* ___m_completeCallback_1;
-};
-// Native definition for P/Invoke marshalling of UnityEngine.AsyncOperation
-struct AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C_marshaled_pinvoke : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_pinvoke
-{
-	intptr_t ___m_Ptr_0;
-	Il2CppMethodPointer ___m_completeCallback_1;
-};
-// Native definition for COM marshalling of UnityEngine.AsyncOperation
-struct AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C_marshaled_com : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_com
-{
-	intptr_t ___m_Ptr_0;
-	Il2CppMethodPointer ___m_completeCallback_1;
-};
-
 // UnityEngine.Bounds
 struct Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 
 {
@@ -3515,13 +3469,6 @@ struct TouchScreenKeyboardType_t3F5A06315B263282460BE67DE01393B6FB3780C1
 struct TouchType_t84F82C73BC1A6012141735AD84DA67AA7F7AB43F 
 {
 	// System.Int32 UnityEngine.TouchType::value__
-	int32_t ___value___2;
-};
-
-// UnityEngine.UserAuthorization
-struct UserAuthorization_tD726D18E80FB80F5A0F64B477C260BC8495BC80F 
-{
-	// System.Int32 UnityEngine.UserAuthorization::value__
 	int32_t ___value___2;
 };
 
@@ -4812,13 +4759,6 @@ struct ARBehaviour_t2F27048E2E763C5ADEABA96FDB84EE3B9A64F3AF  : public MonoBehav
 	bool ___cameraStartDone_4;
 };
 
-// ARPlacementControl
-struct ARPlacementControl_t0E732DD673D16C359A89511375A889E6D78F96C4  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
-{
-	// System.Boolean ARPlacementControl::isPlaced
-	bool ___isPlaced_4;
-};
-
 // maxstAR.AbstractCameraBackgroundBehaviour
 struct AbstractCameraBackgroundBehaviour_tE5DC0DC291CE71DE1D236646BDF72CDDC10BD2DC  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -4913,11 +4853,6 @@ struct CameraControls_t4E0C79C384104D6CA47CD15D210F737C96117FFD  : public MonoBe
 	float ___pitch_11;
 	// System.Boolean CameraControls::freeModeEnabled
 	bool ___freeModeEnabled_12;
-};
-
-// CameraPermissionOnce
-struct CameraPermissionOnce_t7E075BA0C790DEA62AFC68A4743F4DC5F88C0228  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
-{
 };
 
 // ChatController
@@ -6637,10 +6572,6 @@ struct WearableManager_t72BC76FBE1A9197D14D7B7EF88419ADE67692B7D_StaticFields
 
 // maxstAR.WearableManager
 
-// CameraPermissionOnce/<Start>d__0
-
-// CameraPermissionOnce/<Start>d__0
-
 // CodeScanSample/<AutoFocusCoroutine>d__11
 
 // CodeScanSample/<AutoFocusCoroutine>d__11
@@ -6994,10 +6925,6 @@ struct Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_StaticFields
 
 // System.Collections.Generic.Dictionary`2/Enumerator<System.String,maxstAR.SpaceTrackableBehaviour>
 
-// UnityEngine.AsyncOperation
-
-// UnityEngine.AsyncOperation
-
 // UnityEngine.Bounds
 
 // UnityEngine.Bounds
@@ -7082,10 +7009,6 @@ struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
 // UnityEngine.TouchPhase
 
 // UnityEngine.TouchPhase
-
-// UnityEngine.UserAuthorization
-
-// UnityEngine.UserAuthorization
 
 // AndroidRuntimePermissions/Permission
 
@@ -7407,10 +7330,6 @@ struct Singleton_1_t04CFA535AB817BB3F374E0A062A7B2606202FA9F_StaticFields
 
 // ARBehaviour
 
-// ARPlacementControl
-
-// ARPlacementControl
-
 // maxstAR.AbstractCameraBackgroundBehaviour
 struct AbstractCameraBackgroundBehaviour_tE5DC0DC291CE71DE1D236646BDF72CDDC10BD2DC_StaticFields
 {
@@ -7439,10 +7358,6 @@ struct AbstractCameraBackgroundBehaviour_tE5DC0DC291CE71DE1D236646BDF72CDDC10BD2
 // CameraControls
 
 // CameraControls
-
-// CameraPermissionOnce
-
-// CameraPermissionOnce
 
 // ChatController
 
@@ -10206,14 +10121,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Transform::set_rotation(UnityEngine.Quaternion)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_value, const RuntimeMethod* method) ;
-// System.Void CameraPermissionOnce/<Start>d__0::.ctor(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartU3Ed__0__ctor_mEE3262A63414C46DB1D23D7F681719D7310F4234 (U3CStartU3Ed__0_tE9DE796FD5EAE20055A21794F910C873C2604E71* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
-// System.Boolean UnityEngine.Application::HasUserAuthorization(UnityEngine.UserAuthorization)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Application_HasUserAuthorization_mB418451E98E7C23BA2A31DDF39BFB7253023B4F4 (int32_t ___0_mode, const RuntimeMethod* method) ;
-// UnityEngine.AsyncOperation UnityEngine.Application::RequestUserAuthorization(UnityEngine.UserAuthorization)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C* Application_RequestUserAuthorization_mADBB6AC1C7EF417C7D11D2D8F1263985547F94AA (int32_t ___0_mode, const RuntimeMethod* method) ;
-// System.String System.Boolean::ToString()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Boolean_ToString_m6646C8026B1DF381A1EE8CD13549175E9703CC63 (bool* __this, const RuntimeMethod* method) ;
 // System.String System.String::Format(System.String,System.Object)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8 (String_t* ___0_format, RuntimeObject* ___1_arg0, const RuntimeMethod* method) ;
 // System.Void GameManager::PlaceShips()
@@ -29094,72 +29001,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniformModifier__ctor_m3C791502C365DFF8F
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.Void ARPlacementControl::Place()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARPlacementControl_Place_m85DC0D523775FDBEB38284A0684206C0CB544DAE (ARPlacementControl_t0E732DD673D16C359A89511375A889E6D78F96C4* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral313EEDE6A23AFEAF38AC5068176739DA5FDB8A5A);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// TrackerManager.GetInstance().FindSurface();
-		TrackerManager_t887A4F8C721812B4384A92393257F36731E45BB2* L_0;
-		L_0 = TrackerManager_GetInstance_m04C8071929071C997FD98F3567F90F8192791BE2(NULL);
-		NullCheck(L_0);
-		TrackerManager_FindSurface_m92A806AD58C14A0F64C6A1C8AF1104441300B6F4(L_0, NULL);
-		// isPlaced = true;
-		__this->___isPlaced_4 = (bool)1;
-		// Debug.Log("Board placed (tracking started).");
-		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral313EEDE6A23AFEAF38AC5068176739DA5FDB8A5A, NULL);
-		// }
-		return;
-	}
-}
-// System.Void ARPlacementControl::ResetPlacement()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARPlacementControl_ResetPlacement_m95B86F3F0A55D3DCB712C3C4C185F15A93D797AF (ARPlacementControl_t0E732DD673D16C359A89511375A889E6D78F96C4* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralBC4361839AD70046F1C4B75B0BABC42BA17FC78C);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// TrackerManager.GetInstance().QuitFindingSurface();
-		TrackerManager_t887A4F8C721812B4384A92393257F36731E45BB2* L_0;
-		L_0 = TrackerManager_GetInstance_m04C8071929071C997FD98F3567F90F8192791BE2(NULL);
-		NullCheck(L_0);
-		TrackerManager_QuitFindingSurface_mD6DE0FBF7DC37D9D56186C10392BC76DC35531AE(L_0, NULL);
-		// isPlaced = false;
-		__this->___isPlaced_4 = (bool)0;
-		// Debug.Log("Board reset (finding surface).");
-		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralBC4361839AD70046F1C4B75B0BABC42BA17FC78C, NULL);
-		// }
-		return;
-	}
-}
-// System.Void ARPlacementControl::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARPlacementControl__ctor_mCD9754A0EF51E1C5406B35A2938D3258D629C06B (ARPlacementControl_t0E732DD673D16C359A89511375A889E6D78F96C4* __this, const RuntimeMethod* method) 
-{
-	{
-		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
 // System.Void CameraControls::Start()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CameraControls_Start_m1A2461552553E92F1726A50D298343B3FE7DC266 (CameraControls_t4E0C79C384104D6CA47CD15D210F737C96117FFD* __this, const RuntimeMethod* method) 
 {
@@ -29482,165 +29323,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CameraControls__ctor_m33070D1DE09E18EFBA
 		__this->___panSpeed_8 = (0.5f);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Collections.IEnumerator CameraPermissionOnce::Start()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CameraPermissionOnce_Start_mE0906B5E4456EB84B69A7D2EB15FC03735ED9DCC (CameraPermissionOnce_t7E075BA0C790DEA62AFC68A4743F4DC5F88C0228* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CStartU3Ed__0_tE9DE796FD5EAE20055A21794F910C873C2604E71_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		U3CStartU3Ed__0_tE9DE796FD5EAE20055A21794F910C873C2604E71* L_0 = (U3CStartU3Ed__0_tE9DE796FD5EAE20055A21794F910C873C2604E71*)il2cpp_codegen_object_new(U3CStartU3Ed__0_tE9DE796FD5EAE20055A21794F910C873C2604E71_il2cpp_TypeInfo_var);
-		NullCheck(L_0);
-		U3CStartU3Ed__0__ctor_mEE3262A63414C46DB1D23D7F681719D7310F4234(L_0, 0, NULL);
-		return L_0;
-	}
-}
-// System.Void CameraPermissionOnce::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CameraPermissionOnce__ctor_mB8E7A367C7CFD3849D1750F62BDF4BA2D7D551AB (CameraPermissionOnce_t7E075BA0C790DEA62AFC68A4743F4DC5F88C0228* __this, const RuntimeMethod* method) 
-{
-	{
-		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void CameraPermissionOnce/<Start>d__0::.ctor(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartU3Ed__0__ctor_mEE3262A63414C46DB1D23D7F681719D7310F4234 (U3CStartU3Ed__0_tE9DE796FD5EAE20055A21794F910C873C2604E71* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		int32_t L_0 = ___0_U3CU3E1__state;
-		__this->___U3CU3E1__state_0 = L_0;
-		return;
-	}
-}
-// System.Void CameraPermissionOnce/<Start>d__0::System.IDisposable.Dispose()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartU3Ed__0_System_IDisposable_Dispose_m9CBD09818B05B98A235313E5ABCD3E3ECC923666 (U3CStartU3Ed__0_tE9DE796FD5EAE20055A21794F910C873C2604E71* __this, const RuntimeMethod* method) 
-{
-	{
-		return;
-	}
-}
-// System.Boolean CameraPermissionOnce/<Start>d__0::MoveNext()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CStartU3Ed__0_MoveNext_m9BE312DEDA867D0395FA8EA343CB164C61CEB2B9 (U3CStartU3Ed__0_tE9DE796FD5EAE20055A21794F910C873C2604E71* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4F71098B89BE6B0818C24572DD6A76ED8A52F2D4);
-		s_Il2CppMethodInitialized = true;
-	}
-	int32_t V_0 = 0;
-	bool V_1 = false;
-	{
-		int32_t L_0 = __this->___U3CU3E1__state_0;
-		V_0 = L_0;
-		int32_t L_1 = V_0;
-		if (!L_1)
-		{
-			goto IL_0010;
-		}
-	}
-	{
-		int32_t L_2 = V_0;
-		if ((((int32_t)L_2) == ((int32_t)1)))
-		{
-			goto IL_0034;
-		}
-	}
-	{
-		return (bool)0;
-	}
-
-IL_0010:
-	{
-		__this->___U3CU3E1__state_0 = (-1);
-		// if (!Application.HasUserAuthorization(UserAuthorization.WebCam))
-		bool L_3;
-		L_3 = Application_HasUserAuthorization_mB418451E98E7C23BA2A31DDF39BFB7253023B4F4(1, NULL);
-		if (L_3)
-		{
-			goto IL_003b;
-		}
-	}
-	{
-		// yield return Application.RequestUserAuthorization(UserAuthorization.WebCam);
-		AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C* L_4;
-		L_4 = Application_RequestUserAuthorization_mADBB6AC1C7EF417C7D11D2D8F1263985547F94AA(1, NULL);
-		__this->___U3CU3E2__current_1 = L_4;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current_1), (void*)L_4);
-		__this->___U3CU3E1__state_0 = 1;
-		return (bool)1;
-	}
-
-IL_0034:
-	{
-		__this->___U3CU3E1__state_0 = (-1);
-	}
-
-IL_003b:
-	{
-		// Debug.Log("Camera authorized? " + Application.HasUserAuthorization(UserAuthorization.WebCam));
-		bool L_5;
-		L_5 = Application_HasUserAuthorization_mB418451E98E7C23BA2A31DDF39BFB7253023B4F4(1, NULL);
-		V_1 = L_5;
-		il2cpp_codegen_runtime_class_init_inline(Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_il2cpp_TypeInfo_var);
-		String_t* L_6;
-		L_6 = Boolean_ToString_m6646C8026B1DF381A1EE8CD13549175E9703CC63((&V_1), NULL);
-		String_t* L_7;
-		L_7 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral4F71098B89BE6B0818C24572DD6A76ED8A52F2D4, L_6, NULL);
-		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_7, NULL);
-		// }
-		return (bool)0;
-	}
-}
-// System.Object CameraPermissionOnce/<Start>d__0::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CStartU3Ed__0_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mF17A1BA4FE0592B90CB1D5AB911ACC804E79E467 (U3CStartU3Ed__0_tE9DE796FD5EAE20055A21794F910C873C2604E71* __this, const RuntimeMethod* method) 
-{
-	{
-		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;
-		return L_0;
-	}
-}
-// System.Void CameraPermissionOnce/<Start>d__0::System.Collections.IEnumerator.Reset()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartU3Ed__0_System_Collections_IEnumerator_Reset_m50B884658847233AA056EFD5AAA661252A9FCB68 (U3CStartU3Ed__0_tE9DE796FD5EAE20055A21794F910C873C2604E71* __this, const RuntimeMethod* method) 
-{
-	{
-		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
-		NullCheck(L_0);
-		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CStartU3Ed__0_System_Collections_IEnumerator_Reset_m50B884658847233AA056EFD5AAA661252A9FCB68_RuntimeMethod_var)));
-	}
-}
-// System.Object CameraPermissionOnce/<Start>d__0::System.Collections.IEnumerator.get_Current()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CStartU3Ed__0_System_Collections_IEnumerator_get_Current_mE11BD7287238511C9660469DF83016009132DD44 (U3CStartU3Ed__0_tE9DE796FD5EAE20055A21794F910C873C2604E71* __this, const RuntimeMethod* method) 
-{
-	{
-		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;
-		return L_0;
 	}
 }
 #ifdef __clang__
@@ -31064,13 +30746,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneLoader_LoadMainScene_m94B050FBEBF90
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral28CFBEDF2F408160100D6C6B70EE3A60C8690EF1);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral53D4F91E72AB45C3FC5626BE74C2A4E077287BD0);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		// SceneManager.LoadScene("new mainScene");
+		// SceneManager.LoadScene("mainScene");
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
-		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral28CFBEDF2F408160100D6C6B70EE3A60C8690EF1, NULL);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral53D4F91E72AB45C3FC5626BE74C2A4E077287BD0, NULL);
 		// }
 		return;
 	}

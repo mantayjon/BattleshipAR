@@ -7,12 +7,17 @@
 		</type>
 		<type fullname="InfoPanel">
 			<method name="Hide"/>
+			<method name="Hide"/>
 		</type>
 		<type fullname="SceneLoader">
 			<method name="LoadARScene"/>
 			<method name="LoadMainScene"/>
 		</type>
 		<type fullname="ShipButton">
+			<method name="OnClick"/>
+			<method name="OnClick"/>
+			<method name="OnClick"/>
+			<method name="OnClick"/>
 			<method name="OnClick"/>
 			<method name="OnClick"/>
 			<method name="OnClick"/>

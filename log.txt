@@ -1165,3 +1165,329 @@ PYRAMID : 1.093833
 PROCESSING : 0.163735
 FINALIZING : 0.006759
 Exit Tracking thread
+onSurfaceChanged
+onSurfaceChanged
+SDK Version : 6.2.1
+Invalid License
+Enter Tracking thread
+#########################################
+TOTAL : 1.384052
+PYRAMID : 1.370790
+PROCESSING : 0.000469
+FINALIZING : 0.007889
+#########################################
+TOTAL : 1.197343
+PYRAMID : 1.184101
+PROCESSING : 0.000399
+FINALIZING : 0.008246
+#########################################
+TOTAL : 0.954651
+PYRAMID : 0.943738
+PROCESSING : 0.000361
+FINALIZING : 0.006440
+#########################################
+TOTAL : 1.002520
+PYRAMID : 0.992042
+PROCESSING : 0.000384
+FINALIZING : 0.006441
+Exit Tracking thread
+onSurfaceChanged
+onSurfaceChanged
+SDK Version : 6.2.1
+Invalid License
+Enter Tracking thread
+#########################################
+TOTAL : 1.136282
+PYRAMID : 1.123838
+PROCESSING : 0.000355
+FINALIZING : 0.007846
+#########################################
+TOTAL : 1.062570
+PYRAMID : 1.051488
+PROCESSING : 0.000448
+FINALIZING : 0.006022
+#########################################
+TOTAL : 0.990642
+PYRAMID : 0.979910
+PROCESSING : 0.000305
+FINALIZING : 0.005959
+#########################################
+TOTAL : 1.035758
+PYRAMID : 1.024624
+PROCESSING : 0.000303
+FINALIZING : 0.006377
+#########################################
+TOTAL : 1.036665
+PYRAMID : 1.026147
+PROCESSING : 0.000311
+FINALIZING : 0.006434
+#########################################
+TOTAL : 0.982413
+PYRAMID : 0.972658
+PROCESSING : 0.000424
+FINALIZING : 0.005843
+It's OK!!
+MAPPING_SECOND : 2.231552
+#########################################
+TOTAL : 1.406044
+PYRAMID : 1.012071
+PROCESSING : 0.378797
+FINALIZING : 0.006552
+TRACKING_TOTAL : 0.442869
+#########################################
+TOTAL : 1.313152
+PYRAMID : 0.883626
+PROCESSING : 0.407854
+FINALIZING : 0.005635
+TRACKING_TOTAL : 0.454389
+#########################################
+TOTAL : 1.415393
+PYRAMID : 0.879882
+PROCESSING : 0.514424
+FINALIZING : 0.006210
+TRACKING_TOTAL : 0.507770
+MAPPING_SECOND : 1.657818
+#########################################
+TOTAL : 1.381420
+PYRAMID : 0.887638
+PROCESSING : 0.473990
+FINALIZING : 0.005766
+TRACKING_TOTAL : 0.526754
+Exit Tracking thread
+onSurfaceChanged
+onSurfaceChanged
+SDK Version : 6.2.1
+Invalid License
+Enter Tracking thread
+#########################################
+TOTAL : 1.551545
+PYRAMID : 1.123426
+PROCESSING : 0.407377
+FINALIZING : 0.007638
+#########################################
+TOTAL : 1.114069
+PYRAMID : 1.101380
+PROCESSING : 0.000352
+FINALIZING : 0.007905
+#########################################
+TOTAL : 0.998710
+PYRAMID : 0.988491
+PROCESSING : 0.000454
+FINALIZING : 0.005928
+It's OK!!
+#########################################
+TOTAL : 1.086252
+PYRAMID : 0.975088
+PROCESSING : 0.101217
+FINALIZING : 0.006274
+Exit Tracking thread
+onSurfaceChanged
+onSurfaceChanged
+SDK Version : 6.2.1
+Invalid License
+Enter Tracking thread
+#########################################
+TOTAL : 1.329014
+PYRAMID : 1.017698
+PROCESSING : 0.291313
+FINALIZING : 0.006431
+#########################################
+TOTAL : 1.087223
+PYRAMID : 1.074562
+PROCESSING : 0.000368
+FINALIZING : 0.007725
+#########################################
+TOTAL : 0.958462
+PYRAMID : 0.946692
+PROCESSING : 0.000372
+FINALIZING : 0.007369
+#########################################
+TOTAL : 0.955348
+PYRAMID : 0.943851
+PROCESSING : 0.000338
+FINALIZING : 0.006788
+onSurfaceChanged
+#########################################
+TOTAL : 0.975462
+PYRAMID : 0.964085
+PROCESSING : 0.000379
+FINALIZING : 0.006989
+#########################################
+TOTAL : 0.985415
+PYRAMID : 0.972721
+PROCESSING : 0.000378
+FINALIZING : 0.007752
+#########################################
+TOTAL : 1.055130
+PYRAMID : 1.040871
+PROCESSING : 0.000414
+FINALIZING : 0.009466
+#########################################
+TOTAL : 1.169688
+PYRAMID : 1.157109
+PROCESSING : 0.000373
+FINALIZING : 0.007588
+#########################################
+TOTAL : 1.088323
+PYRAMID : 1.076348
+PROCESSING : 0.000623
+FINALIZING : 0.007336
+#########################################
+TOTAL : 1.068102
+PYRAMID : 1.055736
+PROCESSING : 0.000375
+FINALIZING : 0.006870
+#########################################
+TOTAL : 1.060146
+PYRAMID : 1.047691
+PROCESSING : 0.000402
+FINALIZING : 0.007849
+#########################################
+TOTAL : 1.135438
+PYRAMID : 1.120961
+PROCESSING : 0.000430
+FINALIZING : 0.008879
+#########################################
+TOTAL : 1.106693
+PYRAMID : 1.090814
+PROCESSING : 0.000441
+FINALIZING : 0.011247
+#########################################
+TOTAL : 1.059751
+PYRAMID : 1.045277
+PROCESSING : 0.000400
+FINALIZING : 0.009587
+#########################################
+TOTAL : 1.012440
+PYRAMID : 1.000415
+PROCESSING : 0.000381
+FINALIZING : 0.007607
+#########################################
+TOTAL : 1.007428
+PYRAMID : 0.995867
+PROCESSING : 0.000362
+FINALIZING : 0.007101
+#########################################
+TOTAL : 1.032973
+PYRAMID : 1.020948
+PROCESSING : 0.000358
+FINALIZING : 0.006990
+#########################################
+TOTAL : 1.049076
+PYRAMID : 1.037109
+PROCESSING : 0.000366
+FINALIZING : 0.006925
+#########################################
+TOTAL : 1.040209
+PYRAMID : 1.028380
+PROCESSING : 0.000365
+FINALIZING : 0.007173
+#########################################
+TOTAL : 1.037384
+PYRAMID : 1.026180
+PROCESSING : 0.000364
+FINALIZING : 0.006897
+#########################################
+TOTAL : 1.063097
+PYRAMID : 1.051357
+PROCESSING : 0.000353
+FINALIZING : 0.006906
+#########################################
+TOTAL : 1.119757
+PYRAMID : 1.107337
+PROCESSING : 0.000377
+FINALIZING : 0.007564
+Exit Tracking thread
+onSurfaceChanged
+onSurfaceChanged
+SDK Version : 6.2.1
+Invalid License
+Enter Tracking thread
+onSurfaceChanged
+#########################################
+TOTAL : 1.720774
+PYRAMID : 1.703801
+PROCESSING : 0.000424
+FINALIZING : 0.010028
+#########################################
+TOTAL : 2.447377
+PYRAMID : 2.428883
+PROCESSING : 0.000461
+FINALIZING : 0.011219
+#########################################
+TOTAL : 2.191968
+PYRAMID : 2.172036
+PROCESSING : 0.000481
+FINALIZING : 0.013220
+Exit Tracking thread
+onSurfaceChanged
+onSurfaceChanged
+SDK Version : 6.2.1
+Invalid License
+Enter Tracking thread
+#########################################
+TOTAL : 2.005213
+PYRAMID : 1.984135
+PROCESSING : 0.000462
+FINALIZING : 0.012025
+#########################################
+TOTAL : 1.915134
+PYRAMID : 1.897489
+PROCESSING : 0.000447
+FINALIZING : 0.009945
+It's OK!!
+TRACKING_TOTAL : 0.509038
+#########################################
+TOTAL : 3.304890
+PYRAMID : 2.374526
+PROCESSING : 0.904634
+FINALIZING : 0.010794
+TRACKING_TOTAL : 1.127482
+#########################################
+TOTAL : 2.857217
+PYRAMID : 1.964490
+PROCESSING : 0.851829
+FINALIZING : 0.011396
+TRACKING_TOTAL : 0.879005
+#########################################
+TOTAL : 3.638421
+PYRAMID : 2.615178
+PROCESSING : 0.978104
+FINALIZING : 0.010964
+TRACKING_TOTAL : 0.983387
+#########################################
+TOTAL : 2.776132
+PYRAMID : 1.803590
+PROCESSING : 0.928321
+FINALIZING : 0.011659
+TRACKING_TOTAL : 0.998604
+#########################################
+TOTAL : 3.351607
+PYRAMID : 2.253345
+PROCESSING : 1.052950
+FINALIZING : 0.012109
+MAPPING_SECOND : 3.809775
+TRACKING_TOTAL : 1.021558
+#########################################
+TOTAL : 2.975265
+PYRAMID : 1.912651
+PROCESSING : 1.016507
+FINALIZING : 0.011559
+TRACKING_TOTAL : 1.100288
+#########################################
+TOTAL : 3.333602
+PYRAMID : 2.197474
+PROCESSING : 1.081112
+FINALIZING : 0.010091
+TRACKING_TOTAL : 0.979564
+#########################################
+TOTAL : 2.141089
+PYRAMID : 1.547352
+PROCESSING : 0.549194
+FINALIZING : 0.012211
+#########################################
+TOTAL : 2.141458
+PYRAMID : 2.123931
+PROCESSING : 0.000505
+FINALIZING : 0.010603
+Exit Tracking thread
