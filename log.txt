@@ -1491,3 +1491,85 @@ PYRAMID : 2.123931
 PROCESSING : 0.000505
 FINALIZING : 0.010603
 Exit Tracking thread
+onSurfaceChanged
+onSurfaceChanged
+Module 6.01.00
+Enter Tracking thread
+#########################################
+TOTAL : 1.105451
+PYRAMID : 1.092616
+PROCESSING : 0.000315
+FINALIZING : 0.007435
+#########################################
+TOTAL : 1.447125
+PYRAMID : 1.432278
+PROCESSING : 0.000350
+FINALIZING : 0.009308
+It's OK!!
+#########################################
+TOTAL : 1.902224
+PYRAMID : 1.525782
+PROCESSING : 0.360964
+FINALIZING : 0.010058
+#########################################
+TOTAL : 2.138663
+PYRAMID : 1.518171
+PROCESSING : 0.587351
+FINALIZING : 0.009405
+Exit Tracking thread
+onSurfaceChanged
+onSurfaceChanged
+Module 6.01.00
+Enter Tracking thread
+#########################################
+TOTAL : 1.243220
+PYRAMID : 1.227914
+PROCESSING : 0.000303
+FINALIZING : 0.009011
+onSurfaceChanged
+#########################################
+TOTAL : 1.403097
+PYRAMID : 1.385130
+PROCESSING : 0.000605
+FINALIZING : 0.010757
+It's OK!!
+#########################################
+TOTAL : 2.157616
+PYRAMID : 1.497096
+PROCESSING : 0.633714
+FINALIZING : 0.011289
+TRACKING_TOTAL : 0.822139
+#########################################
+TOTAL : 2.975608
+PYRAMID : 1.976328
+PROCESSING : 0.959897
+FINALIZING : 0.011687
+TRACKING_TOTAL : 1.048102
+#########################################
+TOTAL : 3.941920
+PYRAMID : 2.608137
+PROCESSING : 1.282549
+FINALIZING : 0.014398
+TRACKING_TOTAL : 1.774853
+#########################################
+TOTAL : 5.909876
+PYRAMID : 3.383896
+PROCESSING : 2.462539
+FINALIZING : 0.018430
+TRACKING_TOTAL : 2.713162
+#########################################
+TOTAL : 5.615415
+PYRAMID : 2.864925
+PROCESSING : 2.680558
+FINALIZING : 0.015811
+#########################################
+TOTAL : 3.346021
+PYRAMID : 2.397933
+PROCESSING : 0.900105
+FINALIZING : 0.018358
+Exit Tracking thread
+onSurfaceChanged
+onSurfaceChanged
+Module 6.01.00
+Enter Tracking thread
+Exit Tracking thread
